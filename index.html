@@ -9,16 +9,17 @@
 </head>
 <body>
 
-    <!-- 导航 -->
+    <!-- 导航 Navigation -->
     <nav class="ui inverted attached segment m-padded-tb-mini" >
         <div class="ui container">
-            <div class="ui inverted secondary menu">
+            <div class="ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">Blog Demo</h2>
-                <a href="#" class="item"><i class="home icon"></i>Index</a>
-                <a href="#" class="item"><i class="idea icon"></i>Categories</a>
-                <a href="#" class="item"><i class="tags icon"></i>Labels</a>
-                <a href="#" class="item"><i class="info icon"></i>About</a>
-                <div class="right item">
+                <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>Index</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>Categories</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>Labels</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>Archive</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>About</a>
+                <div class="right m-item item m-mobile-hide">
                     <div class="ui icon input transparent inverted">
                         <input type="text" placeholder="Search...">
                         <i class="search icon link "></i>
@@ -26,12 +27,15 @@
                 </div>
             </div>
         </div>
+        <a href="#" class="ui menu toggle black button icon m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
     </nav>
 
-     <!--中间内容-->
-    <div class="m-padded-tb-large m-container">
+     <!--中间内容 Content-->
+    <div class="m-padded-tb-big m-container">
         <div class="ui container">
-            <div class="ui grid">
+            <div class="ui stackable grid">
 
                 <!-- article list on the left-->
                 <div class="eleven wide column">
@@ -52,7 +56,7 @@
 
                         <!-- article -->
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui  mobile reversed stackable  grid">
                                 <div class="eleven wide column">
                                     <h3 class="ui header">演示文章 -- Demo Article</h3>
                                     <p class="m-text">你好世界，我是学生. Semantic UI packaged Gulp build tools so your project can preserve its own theme changes.
@@ -90,9 +94,9 @@
 
                         <!-- article -->
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui  mobile reversed stackable  grid">
                                 <div class="eleven wide column">
-                                    <h3 class="ui header">Demo Article</h3>
+                                    <h3 class="ui header">演示文章 -- Demo Article</h3>
                                     <p class="m-text">你好世界，我是学生. Semantic UI packaged Gulp build tools so your project can preserve its own theme changes.
                                         The easiest way to install Semantic UI is our NPM package which contains special install scripts to make setup interactive and updates seamless.</p>
                                     <div class="ui grid">
@@ -128,9 +132,9 @@
 
                         <!-- article -->
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui  mobile reversed stackable grid">
                                 <div class="eleven wide column">
-                                    <h3 class="ui header">Demo Article</h3>
+                                    <h3 class="ui header">演示文章 -- Demo Article</h3>
                                     <p class="m-text">你好世界，我是学生. Semantic UI packaged Gulp build tools so your project can preserve its own theme changes.
                                         The easiest way to install Semantic UI is our NPM package which contains special install scripts to make setup interactive and updates seamless.</p>
                                     <div class="ui grid">
@@ -166,9 +170,9 @@
 
                         <!-- article -->
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui  mobile reversed stackable  grid">
                                 <div class="eleven wide column">
-                                    <h3 class="ui header">Demo Article</h3>
+                                    <h3 class="ui header">演示文章 -- Demo Article</h3>
                                     <p class="m-text">你好世界，我是学生. Semantic UI packaged Gulp build tools so your project can preserve its own theme changes.
                                         The easiest way to install Semantic UI is our NPM package which contains special install scripts to make setup interactive and updates seamless.</p>
                                     <div class="ui grid">
@@ -204,9 +208,9 @@
 
                         <!-- article -->
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui  mobile reversed stackable  grid">
                                 <div class="eleven wide column">
-                                    <h3 class="ui header">Demo Article</h3>
+                                    <h3 class="ui header">演示文章 -- Demo Article</h3>
                                     <p class="m-text">你好世界，我是学生. Semantic UI packaged Gulp build tools so your project can preserve its own theme changes.
                                         The easiest way to install Semantic UI is our NPM package which contains special install scripts to make setup interactive and updates seamless.</p>
                                     <div class="ui grid">
@@ -242,9 +246,9 @@
 
                         <!-- article -->
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui  mobile reversed stackable  grid">
                                 <div class="eleven wide column">
-                                    <h3 class="ui header">Demo Article</h3>
+                                    <h3 class="ui header">演示文章 -- Demo Article</h3>
                                     <p class="m-text">你好世界，我是学生. Semantic UI packaged Gulp build tools so your project can preserve its own theme changes.
                                         The easiest way to install Semantic UI is our NPM package which contains special install scripts to make setup interactive and updates seamless.</p>
                                     <div class="ui grid">
@@ -278,7 +282,43 @@
                         </div>
                         <!-- article -->
 
+                        <!-- article -->
+                        <div class="ui padded vertical segment m-padded-tb-large">
+                            <div class="ui  mobile reversed stackable  grid">
+                                <div class="eleven wide column">
+                                    <h3 class="ui header">演示文章 -- Demo Article</h3>
+                                    <p class="m-text">你好世界，我是学生. Semantic UI packaged Gulp build tools so your project can preserve its own theme changes.
+                                        The easiest way to install Semantic UI is our NPM package which contains special install scripts to make setup interactive and updates seamless.</p>
+                                    <div class="ui grid">
+                                        <div class="eleven wide column">
+                                            <div class="ui mini horizontal link list">
+                                                <div class="item">
+                                                    <img src="https://unsplash.it/100/100?image=1000" class="ui avatar image" alt="">
+                                                    <div class="content"><a href="#" class="header">Author Name</a></div>
+                                                </div>
+                                                <div class="item">
+                                                    <i class="calendar icon"></i> 2021-1-28
+                                                </div>
+                                                <div class="item">
+                                                    <i class="eye icon"></i> 233
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right aligned five wide column">
+                                            <a href="#" class="ui teal basic label m-padded-tb-mini m-text-thin" target="_blank">Default</a>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <div class="five wide column">
+                                    <a href="#" target="_blank">
+                                        <img src="https://unsplash.it/800/450?image=999" class="ui rounded image" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- article -->
 
                     </div>
 
@@ -458,7 +498,7 @@
     <!-- bottom footer -->
     <footer class="ui inverted vertical segment m-padded-tb-massive">
         <div class="ui center aligned container">
-            <div class="ui inverted divided grid">
+            <div class="ui inverted divided stackable grid">
                 <div class="three wide column">
                     <div class="ui inverted link list">
                         <div class="item">
@@ -490,11 +530,18 @@
         </div>
         <div class="ui inverted section divider"></div>
         <div class="ui center aligned container">
-            <p class="m-text-thin m-text-spaced m-opacity-mini">Free & Open Source Demo</p>
+            <p class="m-text-thin m-text-spaced m-opacity-tiny">Free & Open Source Demo 2021</p>
         </div>
     </footer>
 
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.menu.toggle').click(function () {
+            $('.m-item').toggleClass('m-mobile-hide');
+        })
+    });
+</script>
 </body>
 </html>
