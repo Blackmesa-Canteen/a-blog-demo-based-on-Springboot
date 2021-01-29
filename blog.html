@@ -35,24 +35,194 @@
      <!--中间内容 content-->
     <div class="m-padded-tb-big m-container-small">
         <div class="ui container">
+
+            <!-- author & date of article -->
             <div class="ui top attached segment">
-                head
+                <div class="ui mini horizontal link list">
+                    <div class="item">
+                        <img src="https://unsplash.it/100/100?image=1000" class="ui avatar image" alt="">
+                        <div class="content"><a href="#" class="header">Author Name</a></div>
+                    </div>
+                    <div class="item">
+                        <i class="calendar icon"></i> 2021-1-28
+                    </div>
+                    <div class="item">
+                        <i class="eye icon"></i> 233
+                    </div>
+                </div>
             </div>
-
+            <!-- image of article -->
             <div class="ui attached segment">
-                image
+                <img src="https://unsplash.it/800/450?image=997" alt="" class="ui fluid rounded image">
             </div>
 
-            <div class="ui attached segment">
-                content
+            <div class="ui attached padded segment">
+                <!-- article status -->
+                <div class="ui right aligned basic segment">
+                    <div class="ui orange basic label">Original</div>
+                </div>
+                <!-- article -->
+                <h2 class="ui center aligned header">这是一个实例文章</h2>
+                <br>
+                <div id="content" class="m-padded-lr-responsive m-padded-tb-large">
+                    <p>一个记者走进农村，看见一个放羊的小孩。</p>
+                    <p>记者问：”你的理想是什么呀？”</p>
+                    <p>答曰：”放羊!”</p>
+                    <p>“羊儿喂大了干什么？”</p>
+                    <p>“卖钱！”</p>
+                    <p>“有了羊儿的钱干什么？”</p>
+                    <p>“娶老婆！”</p>
+                    <p>“娶老婆干什么？”</p>
+                    <p>“生小孩！”</p>
+                    <p>“生小孩来干什么？”</p>
+                    <p>“放羊啊！”</p>
+                </div>
+                <!-- article labels-->
+                <div class="m-padded-lr-responsive m-padded-tb-large">
+                    <div class="ui basic teal left pointing label">
+                        Funny
+                    </div>
+                </div>
+                <!-- article give a reward-->
+                <div class="ui center aligned basic segment">
+                    <button id="payButton" class="ui orange circular button">$ $ $</button>
+                </div>
+                <!-- article reward popup QR code-->
+                <div class="ui payQR flowing popup transition hidden">
+                    <div class="ui orange basic label">
+                        <div class="ui images" style="font-size: inherit !important;">
+                            <div class="image">
+                                <img src="./static/images/996QRcode.png" alt="" class="ui rounded bordered image" style="width: 120px">
+                                <div>Alipay</div>
+                            </div>
+                            <div class="image">
+                                <img src="./static/images/996QRcode.png" alt="" class="ui rounded bordered image" style="width: 120px">
+                                <div>WechatPay</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!-- information about the article-->
             <div class="ui attached positive message">
-                message of the blog
+                <div class="ui middle aligned grid">
+                    <div class="eleven wide column">
+                        <ui class="list">
+                            <li>Author: Gordon Freeman</li>
+                            <li>Published time: 2021.1.29</li>
+                            <li>Copyright: NaN</li>
+                        </ui>
+                    </div>
+                    <div class="five wide column">
+                        <img src="./static/images/996QRcode.png" alt="" class="ui right floated rounded bordered image" style="width: 80px">
+                    </div>
+                </div>
             </div>
 
             <div class="ui bottom attached segment">
-                leave a message
+                <!-- comments list -->
+                <div class="ui teal segment">
+                    <div class="ui comments">
+                        <h3 class="ui dividing header">Comments</h3>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="https://unsplash.it/100/100?image=888">
+                            </a>
+                            <div class="content">
+                                <a class="author">Matt</a>
+                                <div class="metadata">
+                                    <span class="date">Today at 5:42PM</span>
+                                </div>
+                                <div class="text">
+                                    How artistic!
+                                </div>
+                                <div class="actions">
+                                    <a class="reply">Reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="https://unsplash.it/100/100?image=999">
+                            </a>
+                            <div class="content">
+                                <a class="author">Elliot Fu</a>
+                                <div class="metadata">
+                                    <span class="date">Yesterday at 12:30AM</span>
+                                </div>
+                                <div class="text">
+                                    <p>This has been very useful for my research. Thanks as well!</p>
+                                </div>
+                                <div class="actions">
+                                    <a class="reply">Reply</a>
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <div class="comment">
+                                    <a class="avatar">
+                                        <img src="https://unsplash.it/100/100?image=998">
+                                    </a>
+                                    <div class="content">
+                                        <a class="author">Jenny Hess</a>
+                                        <div class="metadata">
+                                            <span class="date">Just now</span>
+                                        </div>
+                                        <div class="text">
+                                            Elliot you are always so right :)
+                                        </div>
+                                        <div class="actions">
+                                            <a class="reply">Reply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="https://unsplash.it/100/100?image=993">
+                            </a>
+                            <div class="content">
+                                <a class="author">孙 笑川</a>
+                                <div class="metadata">
+                                    <span class="date">5 days ago</span>
+                                </div>
+                                <div class="text">
+                                    草拟吗！
+                                </div>
+                                <div class="actions">
+                                    <a class="reply">Reply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- comments form -->
+                <div class="ui form">
+                    <div class="field">
+                        <label>
+                            <textarea name="content" placeholder="Your comment..."></textarea>
+                        </label>
+                    </div>
+                    <div class="fields">
+                        <div class="field m-mobile-wide m-marin-bottom-small">
+                            <div class="ui icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="nickname" placeholder="Your name...">
+                            </div>
+
+                        </div>
+                        <div class="field m-mobile-wide m-marin-bottom-small">
+                            <div class="ui icon input">
+                                <i class="mail icon"></i>
+                                <input type="text" name="email" placeholder="Your E-mail...">
+                            </div>
+                        </div>
+                        <div class="field m-mobile-wide m-marin-bottom-small">
+                            <button class="ui teal button m-mobile-wide"><i class="edit icon"></i>Comment</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -105,6 +275,12 @@
         $('.menu.toggle').click(function () {
             $('.m-item').toggleClass('m-mobile-hide');
         })
+    });
+
+    $('#payButton').popup({
+        popup: ($('.payQR.popup')),
+        on: 'click',
+        position: 'bottom center'
     });
 </script>
 </body>

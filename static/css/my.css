@@ -42,6 +42,11 @@ body {
     padding-bottom: 5em !important;
 }
 
+.m-padded-lr-responsive {
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+
 /*--------------margin---------*/
 .m-margin-tb-tiny{
     margin-top: 0.3em !important;
@@ -61,6 +66,13 @@ body {
     margin-bottom: 1em !important;
 }
 
+.m-marin-bottom-mini {
+    margin-bottom: 0.2em !important;
+}
+
+.m-marin-bottom-small {
+    margin-bottom: 0.5em !important;
+}
 
 
 /*---------------text-----------*/
@@ -133,6 +145,13 @@ body {
     }
     .m-mobile-show {
         display: block !important;
+    }
+    .m-padded-lr-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-mobile-wide {
+        width: 100% !important;
     }
 }
 
