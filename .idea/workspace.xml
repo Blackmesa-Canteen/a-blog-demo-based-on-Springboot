@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="701a386c-1209-4925-814b-534c7f352e43" name="Default Changelist" comment="finished categories page, and modified some contents on other pages">
-      <change afterPath="$PROJECT_DIR$/Labels.html" afterDir="false" />
+    <list default="true" id="701a386c-1209-4925-814b-534c7f352e43" name="Default Changelist" comment="finished labels page">
+      <change afterPath="$PROJECT_DIR$/archive.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labels.html" beforeDir="false" afterPath="$PROJECT_DIR$/Labels.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -77,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611766536152</updated>
       <workItem from="1611766547642" duration="13935000" />
-      <workItem from="1611928653664" duration="9916000" />
+      <workItem from="1611928653664" duration="11752000" />
     </task>
     <task id="LOCAL-00001" summary="i meet a bug on git, then fixed it">
       <created>1611928891948</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611978885385</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished labels page">
+      <created>1611980095898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611980095898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +128,8 @@
     <MESSAGE value="i meet a bug on git, then fixed it" />
     <MESSAGE value="almost finished blog article page." />
     <MESSAGE value="finished categories page, and modified some contents on other pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished categories page, and modified some contents on other pages" />
+    <MESSAGE value="finished labels page" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished labels page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="721" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611977392702">
