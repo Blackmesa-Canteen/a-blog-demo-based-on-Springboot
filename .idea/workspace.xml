@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="701a386c-1209-4925-814b-534c7f352e43" name="Default Changelist" comment="i meet a bug on git, then fixed it">
+    <list default="true" id="701a386c-1209-4925-814b-534c7f352e43" name="Default Changelist" comment="almost finished blog article page.">
+      <change afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/my.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611766536152</updated>
       <workItem from="1611766547642" duration="13935000" />
-      <workItem from="1611928653664" duration="5858000" />
+      <workItem from="1611928653664" duration="8961000" />
     </task>
     <task id="LOCAL-00001" summary="i meet a bug on git, then fixed it">
       <created>1611928891948</created>
@@ -85,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611928891948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="almost finished blog article page.">
+      <created>1611936617892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611936617892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,16 +113,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i meet a bug on git, then fixed it" />
-    <option name="LAST_COMMIT_MESSAGE" value="i meet a bug on git, then fixed it" />
+    <MESSAGE value="almost finished blog article page." />
+    <option name="LAST_COMMIT_MESSAGE" value="almost finished blog article page." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="721" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611977392702">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="721" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1611977392702" />
     <state x="491" y="97" key="SettingsEditor" timestamp="1611801725629">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
     <state x="491" y="97" key="SettingsEditor/0.23.1792.1033@0.23.1792.1033" timestamp="1611801725629" />
-    <state x="492" y="264" key="Vcs.Push.Dialog.v2" timestamp="1611928912072">
+    <state x="492" y="264" key="Vcs.Push.Dialog.v2" timestamp="1611936898116">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state x="492" y="264" key="Vcs.Push.Dialog.v2/0.23.1792.1033@0.23.1792.1033" timestamp="1611928912072" />
+    <state x="492" y="264" key="Vcs.Push.Dialog.v2/0.23.1792.1033@0.23.1792.1033" timestamp="1611936898116" />
+    <state x="982" y="272" width="670" height="676" key="search.everywhere.popup" timestamp="1611977549338">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="982" y="272" width="670" height="676" key="search.everywhere.popup/0.23.1792.1033@0.23.1792.1033" timestamp="1611977549338" />
   </component>
 </project>
