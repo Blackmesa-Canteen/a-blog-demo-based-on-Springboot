@@ -2,6 +2,10 @@ body {
     background: url("../images/bg-2.png");
 }
 
+.m-padded{
+    padding: 1em !important;
+}
+
 .m-padded-tb-mini{
     padding-top: 0.2em !important;
     padding-bottom: 0.2em !important;
@@ -134,6 +138,15 @@ body {
 }
 
 /*-----------position---------*/
+.m-fixed {
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+.m-right-bottom {
+    bottom: 0 !important;
+    right: 0 !important;
+}
 
 .m-right-top{
     position: absolute;
